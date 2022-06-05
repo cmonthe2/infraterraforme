@@ -73,7 +73,7 @@ resource "aws_instance" "Jenkins-server" {
   associate_public_ip_address = true
   availability_zone           = "us-east-1b"
   /* cpu_core_count = "1"  */
-  key_name = "Devops"
+  key_name = "maestrokey"
   tags = {
     Name = "web_server"
   }
